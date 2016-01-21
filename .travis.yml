@@ -1,0 +1,6 @@
+sudo: false
+language: go
+go:
+  - tip
+script:
+  - $HOME/gopath/bin/godl https://github.com/mshr-h/godl/raw/master/godl/godl.go
